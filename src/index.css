@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+main {
+  background-image: url("/bg.webp");
+  background-repeat: repeat;
+  background-size: cover;
+}
+.font-style {
+  font-family: "Protest Guerrilla", sans-serif;
+}
+.name {
+  font-family: "Kanit", sans-serif;
+  font-size: x-small;
+}
+/* Chart.css */
+.canvasjs-chart-container {
+  outline: none;
+}
